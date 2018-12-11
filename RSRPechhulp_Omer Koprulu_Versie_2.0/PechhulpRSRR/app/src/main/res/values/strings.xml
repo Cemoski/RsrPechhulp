@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">PechhulpRSRR</string>
+    <string name="textview">Met de hulpmiddelen van de RSR blijft u mobiel. RSR is dé leverancier van hulpmiddelen in de regio Noordoost-Nederland.
+    Gedegen kennis en jarenlange ervaring zit in ons DNA verweven en leidt tot het beste advies.  \n \nWilt u meer weten over onze producten
+    en diensten, kijk dan op  <a href= "https://www.rsr.nl">www.rsr.nl</a> of bezoek onze showrooms in Silvolde en Niewleusen. We zijn iedere dag geopend van 8.00 tot 17.00 uur
+    Hier kunt u diverse hulpmiddelen uitproberen en rustig bekijken wat goed bij uw situatie aansluit. Samen met u zoeken we naar het hulpmiddel
+    wat bij u past. RSR maakt mensen mobiel
+
+</string>
+    <!--Pop up text-->
+    <string name="pop_up">Belkosten \n\n Voor dit nummer betaalt u uw gebruikelijke belkosten</string>
+
+    <!--Tablet map activity screen-->
+    <string name="tabletMapActivityText">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   Neem contact op met RSR Nederland
+        \n\n\n\n\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Voor dit nummer betaalt u uw gebruikelijke belkosten.</string>
+    <string name="nummerRsr">0900-7788990</string>
+
+    <!--Buttons-->
+    <string name="buttonHome">RSR Pechhulp</string>
+    <string name="buttonCall">Bel RSR nu</string>
+    <string name="buttonCallNow">Bel nu</string>
+    <string name="buttonOverRSR">Over Rsr</string>
+
+    <!--API key van google-->
+    <string name= "google_maps_API_key"> AIzaSyDqyU-I_icO5wBe05zZjzgsx1M3vdlZ3js</string>
+</resources>

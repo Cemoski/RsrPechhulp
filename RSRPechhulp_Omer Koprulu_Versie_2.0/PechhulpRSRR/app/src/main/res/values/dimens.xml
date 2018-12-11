@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Default buttons and lines-->
+    <dimen name="standard_button_padding">5dp</dimen>
+    <dimen name="standard_button_layout_width">304dp</dimen>
+    <dimen name="standard_button_layout_height">35dp</dimen>
+    <dimen name="pop_up_button_layout_width">260</dimen>
+    <dimen name="tablet_button_layout_height">46dp</dimen>
+    <dimen name="standard_button_layout_margin_bottom">16dp</dimen>
+    <dimen name="standard_underline_layout_height">2dp</dimen>
+    <dimen name="infoscreen_underline_layout_height">5dp</dimen>
+    <dimen name="standard_toolbar_underline_layout_width">0dp</dimen>
+
+    <!--Logos-->
+    <dimen name="i_padding">5dp</dimen>
+    <dimen name="i_logo_layout_width">47dp</dimen>
+    <dimen name="i_logo_layout_height">58dp</dimen>
+    <dimen name="caution_logo_margin">8dp</dimen>
+    <dimen name="caution_logo_margin2">5dp</dimen>
+
+
+    <!--Background and image size-->
+    <dimen name="standard_background_padding">5dp</dimen>
+    <dimen name="standard_background_layout_width">0dp</dimen>
+    <dimen name="standard_background_layout_height">0dp</dimen>
+    <dimen name="default_line_layout_height">2dp</dimen>
+    <dimen name="infoscreen_image_layout_height">217dp</dimen>
+
+    <!--Textview-->
+    <dimen name="infoscreen_textview_layout_height">262dp</dimen>
+    <dimen name="infoscreen_textview_margin">8dp</dimen>
+    <dimen name="infoscreen_textview_textsize">14sp</dimen>
+    <dimen name="infoscreen_tablet_textview_textsize">16sp</dimen>
+
+    <!--Toolbar size-->
+    <dimen name="toolbar_layout_height">58dp</dimen>
+    <dimen name="toolbar_layout_width">0dp</dimen>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSecond"
+        android:layout_width="@dimen/toolbar_layout_width"
+        android:layout_height="@dimen/toolbar_layout_height"
+        android:background="@color/defaultButton"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/standard_background_layout_width"
+        android:layout_height="415dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSecond"
+        app:srcCompat="@drawable/info_bg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="577dp"
+        android:layout_height="@dimen/infoscreen_textview_layout_height"
+        android:layout_marginStart="@dimen/infoscreen_textview_margin"
+        android:layout_marginLeft="@dimen/infoscreen_textview_margin"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/infoscreen_textview_margin"
+        android:text="@string/textview"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/infoscreen_tablet_textview_textsize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Button
+        android:id="@+id/underlinePic"
+        android:layout_width="@dimen/standard_toolbar_underline_layout_width"
+        android:layout_height="@dimen/infoscreen_underline_layout_height"
+        android:background="@color/defaultButton"
+        android:padding="@dimen/standard_button_padding"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:singleLine="false" />
+
+    <Button
+        android:id="@+id/ToolbarUnderline2"
+        android:layout_width="@dimen/standard_toolbar_underline_layout_width"
+        android:layout_height="@dimen/standard_underline_layout_height"
+        android:background="@color/underLine"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarSecond"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="128dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/info_screen_logo" />
+
+
+</android.support.constraint.ConstraintLayout>

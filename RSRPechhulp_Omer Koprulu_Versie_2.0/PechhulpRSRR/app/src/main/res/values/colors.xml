@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#02748b</color>
+    <color name="transparant">#00000000</color>
+    <color name="transparant2">#000293BB</color>
+    <color name="defaultButton">#0293bb</color>
+    <color name="underLine">#303f9f</color>
+    <color name="defaultText">#FFFFFF</color>
+    <color name="transparantRsrBlue">#810293BB</color>
+    <color name="pop_up_background">#8BCBD403</color>
+
+</resources>
+

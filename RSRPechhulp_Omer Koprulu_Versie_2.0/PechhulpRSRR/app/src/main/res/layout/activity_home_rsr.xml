@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="@dimen/toolbar_layout_width"
+        android:layout_height="@dimen/toolbar_layout_height"
+        android:background="@color/defaultButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/toInfoImage"
+        android:layout_width="@dimen/i_logo_layout_width"
+        android:layout_height="@dimen/i_logo_layout_height"
+        android:layout_marginStart="@dimen/caution_logo_margin"
+        android:layout_marginLeft="@dimen/caution_logo_margin"
+        android:layout_marginEnd="@dimen/caution_logo_margin2"
+        android:layout_marginRight="@dimen/caution_logo_margin2"
+        android:background="@color/transparant"
+        android:scaleType="fitXY"
+        android:scaleY="0.6"
+        app:layout_constraintBottom_toTopOf="@+id/Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.974"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/main_btn_info_down"
+        tools:scaleX="0.4" />
+
+    <ImageView
+        android:id="@+id/Background"
+        android:layout_width="@dimen/standard_background_layout_width"
+        android:layout_height="@dimen/standard_background_layout_height"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/main_bg" />
+
+    <Button
+        android:id="@+id/toMapButton"
+        android:layout_width="@dimen/standard_button_layout_width"
+        android:layout_height="@dimen/standard_button_layout_height"
+        android:background="@color/defaultButton"
+        android:text="@string/buttonHome"
+        android:textColor="@color/defaultText"
+        android:padding="@dimen/standard_button_padding"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Background"
+        app:layout_constraintVertical_bias="0.972"
+        tools:singleLine="false" />
+
+    <Button
+        android:id="@+id/buttonUnderline1"
+        android:layout_width="@dimen/standard_button_layout_width"
+        android:layout_height="@dimen/standard_underline_layout_height"
+        android:background="@color/underLine"
+        android:padding="@dimen/standard_button_padding"
+        android:textColor="@color/defaultText"
+        android:layout_marginBottom="@dimen/standard_button_layout_margin_bottom"
+        app:layout_constraintBottom_toBottomOf="@+id/Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toMapButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/emergencyLogo"
+        android:layout_width="28dp"
+        android:layout_height="26dp"
+        android:layout_alignBottom="@+id/emergencyLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/caution_logo_margin2"
+        android:layout_marginBottom="@dimen/caution_logo_margin"
+        android:layout_marginEnd="@dimen/caution_logo_margin"
+        android:layout_marginLeft="@dimen/caution_logo_margin"
+        android:layout_marginRight="@dimen/caution_logo_margin"
+        android:layout_marginStart="@dimen/caution_logo_margin"
+        android:layout_marginTop="@dimen/caution_logo_margin"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/toMapButton"
+        app:layout_constraintEnd_toEndOf="@+id/toMapButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/toMapButton"
+        app:layout_constraintTop_toTopOf="@+id/toMapButton"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/main_btn_warning"
+        tools:ignore="NotSibling" />
+
+    <Button
+        android:id="@+id/toolbarUnderline1"
+        android:layout_width="@dimen/standard_toolbar_underline_layout_width"
+        android:layout_height="@dimen/standard_underline_layout_height"
+        android:background="@color/underLine"
+        app:layout_constraintBottom_toTopOf="@+id/Background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

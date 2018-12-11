@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarThird"
+        android:layout_width="@dimen/toolbar_layout_width"
+        android:layout_height="@dimen/toolbar_layout_height"
+        android:background="@color/defaultButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/standard_background_layout_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarThird"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/calllBtn"
+        android:layout_width="178dp"
+        android:layout_height="@dimen/standard_button_layout_height"
+        android:layout_marginBottom="32dp"
+        android:background="@color/transparant2"
+        android:padding="@dimen/standard_button_padding"
+        android:text="@string/nummerRsr"
+        android:textAllCaps="false"
+        android:textColor="@color/defaultText"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/caution_logo_margin2"
+        android:layout_marginBottom="@dimen/caution_logo_margin"
+        android:layout_marginEnd="@dimen/caution_logo_margin"
+        android:layout_marginLeft="@dimen/caution_logo_margin"
+        android:layout_marginRight="@dimen/caution_logo_margin"
+        android:layout_marginStart="@dimen/caution_logo_margin"
+        android:layout_marginTop="@dimen/caution_logo_margin"
+        android:background="@color/transparant"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/calllBtn"
+        app:layout_constraintEnd_toEndOf="@+id/calllBtn"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@+id/calllBtn"
+        app:layout_constraintTop_toTopOf="@+id/calllBtn"
+
+        app:srcCompat="@drawable/post_call" />
+
+
+    <Button
+        android:id="@+id/toolbarUnderline"
+        android:layout_width="@dimen/standard_toolbar_underline_layout_width"
+        android:layout_height="@dimen/standard_underline_layout_height"
+        android:background="@color/underLine"
+        app:layout_constraintBottom_toTopOf="@+id/map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarThird"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="115dp"
+        android:background="@color/transparantRsrBlue"
+        android:text="@string/tabletMapActivityText"
+        android:textColor="@color/defaultText"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
